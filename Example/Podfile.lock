@@ -1,0 +1,27 @@
+PODS:
+  - BananaTesting (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - BananaTesting (from `../`)
+  - FBSnapshotTestCase (~> 2.1.4)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  BananaTesting:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BananaTesting: f083ded80c8c05da4a47323c59d16a7bdf1138e7
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: 272449ba649256ef289df25b881356c114a24dba
+
+COCOAPODS: 1.10.1
